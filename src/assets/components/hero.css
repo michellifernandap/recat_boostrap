@@ -1,0 +1,12 @@
+.nav-color {
+  background-color: #00ff59;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top:10px;
+
+}
+.nav-titulo {
+  color: #1100ff !important;
+  font-weight: bold;
+  font-size: 24px;
+}
