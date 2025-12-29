@@ -6,7 +6,7 @@ import './hero.css';
 
 function Hero() {
   return (
-    <Navbar expand="lg" className="nav-color justify-content-between" >
+    <Navbar expand="lg" className="nav-color" >
       <Container>
         <Navbar.Brand href="#home" className="nav-titulo ">
           React-Bootstrap
@@ -15,7 +15,7 @@ function Hero() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav>
+          <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
